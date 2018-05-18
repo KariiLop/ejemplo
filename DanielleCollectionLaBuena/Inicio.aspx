@@ -23,7 +23,7 @@
                  <li><img src="Imagenes/28880025_1618464128241593_96722197_o.jpg" alt=""></li>
                  <li><img src="Imagenes/28938883_1618463638241642_1080697639_o.jpg" alt=""></li>
                  <li><img src="Imagenes/28944749_1618464274908245_1212188944_o.jpg" alt=""></li>
-            </ul>
+         </ul>
         </div>
     </div>
 </asp:Content>
