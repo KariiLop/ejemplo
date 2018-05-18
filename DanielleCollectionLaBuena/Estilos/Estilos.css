@@ -208,9 +208,12 @@ ul.nice-menu li.bright {
     background: rgb(250, 5, 80);
 }
 .banner {
-    width: 95%;
+    width: 750px;
+    height:700px;
     margin: 0px;
     overflow: hidden;
+    margin-top:-630px;
+    margin-left: 350px;
 }
 .banner ul{
     display: flex;
