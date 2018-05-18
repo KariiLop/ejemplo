@@ -427,6 +427,7 @@ div.header {
     }
 }
 #pies{
+    margin-top:-1450px;
     width:100%;
     height:50px;
     animation-name:rebote;
@@ -435,10 +436,10 @@ div.header {
     animation-fill-mode:forwards; 
 }
 div#pies h1{
-    margin-left:180px;
+    margin-left:400px;
     margin-top:-10px;
     font-family:Algerian;
-    font-size:105px;
+    font-size:75px;
     color: white;
 }
 * {
