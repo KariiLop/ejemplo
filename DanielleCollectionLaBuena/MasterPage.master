@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Estilos/Estilos.css" rel="stylesheet" />
+    <link href="JavaScript/MenuProductos.js" rel="stylesheet" />
+
+    <link rel="stylesheet" href="Estilos/fonts.css">
+    <meta name="keywords" content="css3, animation, nice menu" / >
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="encabezado">
+            <div>
+                <div id="logo">
+                <img src="Imagenes/logo.jpg" alt="Logo Danille Collection" />
+            </div>
+            <div id="titulo">
+                <h1>Danielle Collection</h1>
+            </div>
+            <div id="menu">
+                <ul id="nav">
+	               <li class="home"><a href="#" class="icon-cart">   Carrito</a></li>
+	               <li class="about"><a href="Contacto.aspx" class="icon-address-book">  Contacto</a></li>
+	               <li class="news"><a href="Productos.aspx" class="icon-price-tags">  Productos</a></li>
+	               <li class="contact"><a href="Inicio.aspx" class="icon-home3">  Inicio</a></li>
+                </ul>
+           </div>
+         </div> 
+        </div>
+        <div id="cuerpo">
+            <div id="menuIzquierda">
+                <asp:ContentPlaceHolder id="SubmenuIzquierda" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="contenido">
+                 <asp:ContentPlaceHolder id="ContenidoCuerpo" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+           </asp:ContentPlaceHolder>
+            <div id="pie">
+
+            </div>
+        </div>   
+    </div>
+    </form>
+    <script src="Estilos/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+

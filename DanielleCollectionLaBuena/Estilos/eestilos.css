@@ -1,0 +1,77 @@
+[class*="col-"]{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #edeff2;
+    border: none;
+    background-color: #ffcccc;
+}
+h2{
+    font-family: "Kunstler Script";
+    font-size: 80px;
+}
+p.lead{
+    font-family: "Edwardian Script ITC";
+    font-size: 50px;
+}
+h1{
+	font-family: "ESSTIXThirteen";
+		color: #800080;
+	}
+
+h1.contacto{
+	
+}
+
+textarea{
+	 width: 49%;
+     height: 150px;
+    border: 1px solid #ffcccc;	
+}
+
+body{
+	background-color: #ffcccc;
+	border-left: 10px;
+	font-family: "ESSTIXThirteen";
+	text-align: justify;
+}
+
+div,h2,p,br,head,nav{
+	background-color: #ffcccc;
+	color: #800080;
+}
+
+.featurette-divider{
+	background-color: #ffcccc;	
+}
+
+div.jumbotron{
+	background-color: #ffcccc;
+}
+
+.navbar-inverse{
+	background-color: #ffcccc;
+	color: #800080;	
+	font-size: 50px;
+	border:none;
+	width: 100%;
+}
+p.navbar-brand{
+	font-family: "Matura MT Script Capitals";
+}
+/*
+.marketing .col-md-4{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-md-4 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+*/
