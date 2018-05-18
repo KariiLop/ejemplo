@@ -11,6 +11,7 @@
                 <li><a href="http://twitter.com/?lang=es" target="_blank" class="icon-twitter"></a></li>
                 <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
                 <li><a href="http://outlook.live.com/owa/" target="_blank" class="icon-mail"></a></li>
+                <li><a href="http://outlook.live.com/owa/" target="_blank" class="icon-mail"></a></li>
             </ul>
        </div>
 </asp:Content>
